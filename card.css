@@ -1,0 +1,100 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    justify-items: center;
+}
+.option-card{
+    width: 400px;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 40px;
+    position: relative;
+    cursor: pointer;
+    transition: border-color 0.3s;
+  }
+  .option-card.selected {
+    border-color: #ff5a5f;
+  }
+.main{
+    display: flex;
+    height: 60px;
+   
+  }
+
+.unit{
+    
+   flex: 1;
+}
+.unit-heading{
+font-weight: bold;
+}
+.price{   
+    position: relative;
+    bottom: 16px
+ }
+ .price del {
+    color: #999;
+  }
+.badge {
+    background-color: #ff5a5f;
+    color: white;
+    padding: 2px 8px;
+    font-size: 12px;
+  }
+  
+  .most-popular {
+    background-color: #ff5a5f;
+    color: white;
+    padding: 3px 8px;
+    font-size: 14px;
+
+  }
+  .details {
+    display: none;
+    margin-top: 10px;
+  }
+  
+  .size-color {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    margin-top: 5px;
+    gap: 15px;
+  }
+  
+  .size-color select {
+    padding: 5px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    width: 83px;
+    margin-bottom: 10px;
+  }
+  
+  .footer {
+ 
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+  }
+  
+  .footer p {
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .add-to-cart {
+    background-color: #ff5a5f;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+    width: 400px;
+  }
+  
+  .add-to-cart:hover {
+    background-color: #ff7a7f;
+  }
+  
