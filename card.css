@@ -97,4 +97,16 @@ font-weight: bold;
   .add-to-cart:hover {
     background-color: #ff7a7f;
   }
+
+@media screen and (max-width:480px) {
+  .option-card{
+    width: 319px;
+  }
+  .footer{
+    width: 319px;
+  }
+  .add-to-cart{
+    width: 319px;
+  }
+}
   
